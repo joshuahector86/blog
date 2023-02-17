@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.nav_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 10rem;
+
+  a {
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+}
