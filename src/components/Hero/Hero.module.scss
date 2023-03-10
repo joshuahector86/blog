@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .hero_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: larger;
+  }
+
+  .undertitle {
+    font-size: medium;
+  }
+
+  img {
+    width: 50%;
+    height: 50%;
+  }
+}
