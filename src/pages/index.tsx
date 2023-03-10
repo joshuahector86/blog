@@ -1,14 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "@blog/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@blog/components/Footer/Footer";
+import Hero from "@blog/components/Hero/Hero";
+import Navbar from "@blog/components/Navbar/Navbar";
+import Posts from "@blog/components/Posts/Posts";
 
 export default function Home() {
   return (
     <div>
-      <div>Hello world</div>
+      <Navbar />
+      <Hero />
+      <Posts />
+      <Footer />
     </div>
   );
 }
